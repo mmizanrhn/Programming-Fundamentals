@@ -1,10 +1,23 @@
-var balance = 5000;
+var balance = "premium";
 
-if(balance > 0){
-	alert("The balance is positive");
-} else{
-	alert("The balance is negative");
+switch (balance) {
+	case"plutinum":
+	alert("Its $5000");
+	break;
+	
+	case"golden":
+	alert("Its $2000");
+	break;
+	
+	case"premium":
+	alert("its $10000");
+	break;
+	
+	default:
+	alert("Its $1000");
+	
 }
+ 
 
 
 
